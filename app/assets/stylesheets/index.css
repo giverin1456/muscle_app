@@ -1,0 +1,237 @@
+li{
+  list-style: none;
+}
+
+.header{
+  padding: 10px;
+  display: flex;
+}
+
+.logo{
+  color:black;
+  width: 50%;
+  font-size: 30px;
+}
+
+.header-item{
+  width: 50%;
+}
+
+.header-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-list li{
+  margin: 5px;
+  padding: auto;
+}
+
+
+
+
+
+/* top-image----------- */
+
+
+.top-image img{
+  width: 100%;
+  height: 75vh;
+}
+
+.top-image{
+  position: relative;
+}
+
+.top-image-text{
+  position: absolute;
+  top: 20px;
+  left: 40px;
+  font-size: 30px;
+  color: white;
+}
+
+.top-image-text2{
+  position: absolute;
+  top: 80px;
+  left: 80px;
+  font-size: 30px;
+  color: white;
+}
+
+
+
+/* masle------------ */
+
+.top-masle{
+  background-color: rgb(238, 238, 238);
+}
+
+.left-masle{
+  width: 50%;
+}
+
+.right-masle{
+  width: 50%;
+}
+
+.top-masle{
+  height: 500px;
+  display: flex;
+}
+
+.masle-image img{
+  width: 90%;
+}
+
+.masle-image{
+  margin: 40px 0 20px 40px;
+}
+
+.masle-text{
+  color:  rgb(181, 181, 181);
+  margin: 150px auto;
+  width: 300px;
+}
+
+.masle-text1{
+  font-size: 30px;
+}
+
+.masle-text2{
+
+}
+
+
+
+
+
+/* main------------ */
+
+.main{
+  display: flex;
+  position: relative;
+  height: 500px;
+  background-color: rgb(207, 207, 207);
+}
+
+.left-main{
+  width: 50%;
+}
+
+.main-text{
+  margin: 50px;
+  color: rgb(70, 70, 70);
+  margin: 100px auto;
+  width: 300px;
+}
+
+.main-text p{
+  border: 1px solid  rgb(70, 70, 70);
+  color:  rgb(70, 70, 70);
+  height: 40px;
+  width: 110px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+.main-text1{
+  font-size: 30px;
+}
+
+.main-text2{
+
+}
+
+.main-image img{
+  width: 90%;
+}
+
+.main-image img{
+  margin: 40px 0 20px 40px;
+}
+.second-main{
+  display: flex;
+}
+
+
+
+
+/* second-main----------- */
+.second-main{
+  background-color: rgb(181, 181, 181);
+  height: 500px;
+}
+
+.right-second-text{
+  width: 50%;
+}
+
+.left-second-main{
+  width: 50%;
+}
+
+.right-second-text{
+
+}
+
+.item-text{
+  margin: 80px auto;
+  width: 400px;
+  color: white;
+}
+
+.second-main-image img{
+  width: 80%;
+}
+
+.second-main-image{
+  margin: 40px 0 20px 40px;
+}
+
+.second-main-text1{
+  font-size: 30px;
+}
+
+.item-btn{
+  border: 1px solid white;
+  color: white;
+  height: 40px;
+  width: 130px;
+  text-align: center;
+  padding-top: 15px;
+}
+
+
+.member{
+  width: 200px;
+  height: 200px;
+}
+
+
+/* join----------- */
+
+.join{
+  background-color: rgb(207, 207, 207);
+  height: 400px;
+}
+
+.join-image{
+  margin: 0 auto;
+  width: 500px;
+  position: relative;
+}
+
+.join-image img{
+  height: 300px;
+  margin: 40px;
+}
+
+.join-text{
+  position: absolute;
+  bottom: 10px;
+  left: 20px;
+  z-index: 10;
+  font-size: 50px;
+  color: white;
+}
